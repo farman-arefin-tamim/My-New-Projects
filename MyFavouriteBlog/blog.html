@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/search.png" type="image/x-icon">
+    <style>
+        #pak{
+            color: green;
+            font-weight: bold;
+        }
+        #btn{
+            color: white;
+            background-color: blue;
+            border-radius: 5px;
+        }
+        input[type="password"]{
+            color: red;
+        }
+    </style>
     <title>My Favourite Blog</title>
 </head>
 <body>
@@ -11,12 +25,12 @@
         <img src="assets/images/Cover.png" height="500px" width="2000px" alt="">
     </header>
     <div>
-        <h1><strong>Welcome to my blog</strong></h1>
+        <h1 style="color: blueviolet;"><strong>Welcome to my blog</strong></h1>
         <h3><em>This is official blog of Farman Arefin Tamim</em></h3>
 
         <ol type="a">
             <li>India</li>
-            <li>Pakistan</li>
+            <li id="pak">Pakistan</li>
             <li>Sri-Lanka</li>
             <li>Maldives</li>
             <li>Singapore</li>
@@ -31,9 +45,14 @@
                <option value="d">d</option>
                <option value="e">e</option>
             </select>
-            <button>Submit</button>
+            <button id="btn">Submit</button>
             <br>
             <input type="date" name="date" id="">
+
+            <form action="">
+                <input type="text">
+                <input type="password" name="" id="">
+            </form>
 
         </div>
     </div>
