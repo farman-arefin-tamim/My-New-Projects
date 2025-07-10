@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/search.png" type="image/x-icon">
     <style>
+        *{
+            margin: 0;
+        }
         #pak{
             color: green;
             font-weight: bold;
@@ -20,6 +23,42 @@
         #name{
             color: rgb(28, 236, 108);
         }
+        .first{
+            color: red;
+            background-color: green;
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 10px;
+
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .second{
+            color: aqua;
+            background-color: blueviolet;
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .third{
+            color: chocolate;
+            background-color: yellow;
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+
+            padding: 10px;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+
     </style>
     <title>My Favourite Blog</title>
 </head>
@@ -48,6 +87,18 @@
                <option value="d">d</option>
                <option value="e">e</option>
             </select>
+            <div class="first">
+                <h2>First Blog</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laboriosam! Consequatur quae nulla porro delectus nemo odit minima illo laboriosam? Sed nemo quo voluptatibus ipsa dolores laboriosam unde, voluptate esse.</p>
+            </div>
+            <div class="second">
+                <h2>Second Blog</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laboriosam! Consequatur quae nulla porro delectus nemo odit minima illo laboriosam? Sed nemo quo voluptatibus ipsa dolores laboriosam unde, voluptate esse.</p>
+            </div>
+            <div class="third">
+                <h2>Third Blog</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, laboriosam! Consequatur quae nulla porro delectus nemo odit minima illo laboriosam? Sed nemo quo voluptatibus ipsa dolores laboriosam unde, voluptate esse.</p>
+            </div>
             <button id="btn">Submit</button>
             <br>
             <input type="date" name="date" id="">
